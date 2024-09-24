@@ -1,0 +1,88 @@
+/* TODO: Manually optimize CSS styling. */
+/* Card Set Styling */
+body main div .cardSets {
+  width: 100%;
+  height: 100%;
+  margin: 5%;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px lightgray;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body main div .cardSets:hover {
+  border-color: black;
+}
+
+/* Flip card Styling */
+body main div .cardContainer {
+  background-color: transparent;
+  width: 500px;
+  height: 380px;
+  margin: 5px;
+}
+
+body main div.innerCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+}
+
+body main div .cardContainer:hover .innerCard {
+  transform: rotateY(180deg);
+}
+
+
+body main div .term,
+.description {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+body main div .term {
+  font-size: 2rem;
+  border-radius: 10%;
+  border: solid grey;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body main div .description {
+  font-size: 1.5rem;
+  border-radius: 10%;
+  border: solid grey;
+  background-color: #dce7e8;
+  color: black;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body main div .cardPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+body main div .nextAndPrevBtnContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+body main div .nextAndPrevBtnContainer button {
+  width: 45%;
+}
