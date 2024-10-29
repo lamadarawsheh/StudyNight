@@ -106,7 +106,7 @@ const renderFlashCards = (set, index = 0) => {
   shuffleBtn.addEventListener("click", () => shuffleCards(set));
 
   // Appends cards form and shuffle button to the page containers
-  container.append(addCardBtn, form, shuffleBtn);
+  container.append(shuffleBtn, addCardBtn, form);
   // Appends the container to the dom
   main.append(container);
 };

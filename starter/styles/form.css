@@ -1,11 +1,17 @@
-/* TODO: Manually optimize CSS styling.
-Form Styling */
-form{
+/* Card Form Styling */
+/* TODO: Manually optimize CSS styling. */
+/* Remove unused and unnecessary styling and selectors */
+
+form {}
+
+form {
   display: flex;
   flex-direction: column;
 }
 
+
 form {
+  max-width: 100px;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
@@ -20,8 +26,8 @@ label {
   color: #333333;
 }
 
-input[type="text"]{
-  
+input[type="text"] {
+
   width: 100%;
   padding: 10px;
   margin: 15px;
@@ -44,5 +50,4 @@ input[type="submit"] {
   font-size: 1rem;
   margin-top: 10px;
   margin-bottom: 10px;
- }
-
+}

@@ -1,16 +1,19 @@
 /* General Styling */
 
-li{
+
+li {
   list-style: none;
 }
-body{
+
+
+body {
   display: flex;
   flex-direction: row;
   font-family: 'Inter', sans-serif;
 
 }
 
-main{
+main {
   width: 100%;
   padding: 5%;
   display: flex;
@@ -19,11 +22,11 @@ main{
 
 }
 
-.notVisible{
-  visibility: hidden;
+.notVisible {
+  display: none;
 }
 
-button{
+button {
   border: none;
   background-color: #45e9f5;
   color: white;
@@ -31,4 +34,10 @@ button{
   padding: 10px;
   font-weight: bold;
   border-radius: .5rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: row;
+  }
 }

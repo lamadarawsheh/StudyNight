@@ -50,5 +50,63 @@ const cardSets = [
       { term: "Microservices", description: "Small single purpose services" },
     ],
   },
+  {
+    id: 3,
+    title: "React",
+    cards: [
+      {
+        term: "Components",
+        description: "Reusable module pieces of UI, Java Script functions.",
+      },
+      {
+        term: "Props",
+        description:
+          "Arguments passed to components that can hold data and functions",
+      },
+      {
+        term: "useState",
+        description: "A react hook used to update react state",
+      },
+      {
+        term: "State",
+        description: "Object that stores properties for the component",
+      },
+      {
+        term: "useEffect",
+        description:
+          "React hook used to perform side effects, such as fetching data",
+      },
+      {
+        term: "dependency array",
+        description: "Array passed to useEffect to track values",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Python",
+    cards: [
+      {
+        term: "List",
+        description:
+          "Data-structure that stores a collection of values in sequential order, are mutable",
+      },
+      {
+        term: "Tuple",
+        description:
+          "Immutable Data-structure that stores a collection of values in sequential order ",
+      },
+      {
+        term: "Sets",
+        description:
+          "Mutable but only store immutable objects, collection of values non-sequential",
+      },
+      { term: "String", description: "Text data-type" },
+      {
+        term: "Logic Operators",
+        description: "Used in if, else and else if, conditional statements",
+      },
+    ],
+  },
 ];
 export { cardSets };
