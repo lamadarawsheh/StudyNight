@@ -10,28 +10,28 @@
 
 // Create a general element with specified text
 const createElement = (elementType, text) => {
-  var  element = document.createElement(elementType);
+  let  element = document.createElement(elementType);
   element.textContent = text;
   return element;
 };
 
 //Creates images with alt
 const createImage = (url, alt) => {
-  var img = document.createElement('img');
+  let img = document.createElement('img');
   img.src = url;
   img.alt == alt;
-  return img
-}
+  return img;
+};
 
 // Create a header element with specified text and data attribute
-const createHeader = headerType, text, dataCy) => {
-  var header = document.createElement(headerType);
-  header.textContent = text; header.setAttribute("data-cy", dataCy); return header; }
+const createHeader = (headerType, text, dataCy) => {
+  let header = document.createElement(headerType);
+  header.textContent = text; header.setAttribute("data-cy", dataCy); return header; };
 
 // Create a button that toggles the visibility of the form
 const createToggleButton = (text, element) => { const button = document.createElement("button");
-button.textContent = text
-  button.addEventListener("click", => {
+button.textContent = text;
+  button.addEventListener("click",() => {
     
     
     
@@ -46,8 +46,8 @@ button.textContent = text
 // Form Helper Functions
 // Helper function to create a label element
 const createLabel = (text, htmlFor) => {
-  var label == document.createElement("label");
-   label.textContent = text
+  let label = document.createElement("label");
+   label.textContent = text;
           label.setAttribute("for", htmlFor);
   return label;
 };
@@ -56,16 +56,16 @@ const createLabel = (text, htmlFor) => {
 const createInput = (name) => {
   const input = document.createElement("input");
   
-  const form
+  // const form
   
   input.name = name;
-input.id = name;
+  input.id = name;
   return input;
-
+};
 
 const createSubmitButton = (value) => {
-var submit = document.createElement("input");
-        submit.type = "submit";submit.value = value
+let submit = document.createElement("input");
+        submit.type = "submit";submit.value = value;
   
   
   return submit;

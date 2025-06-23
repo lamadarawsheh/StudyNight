@@ -1,0 +1,36 @@
+{
+  "name": "last-nano-project-package",
+  "version": "1.0.0",
+  "description": "this is called Study Night and is basically a flashcard tool ",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamadarawsheh/StudyNight.git"
+  },
+  "keywords": [
+    "study"
+  ],
+  "author": "Lama Darawsheh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lamadarawsheh/StudyNight/issues"
+  },
+  "homepage": "https://github.com/lamadarawsheh/StudyNight#readme",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "cypress": "^14.5.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.7.0"
+  }
+}
