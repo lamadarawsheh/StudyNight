@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "this is called Study Night and is basically a flashcard tool ",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
