@@ -4,7 +4,8 @@
   "description": "this is called Study Night and is basically a flashcard tool ",
   "scripts": {
     "test": "mocha",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "cypress": "cypress run"
   },
   "repository": {
     "type": "git",
